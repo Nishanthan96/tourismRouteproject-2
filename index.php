@@ -11,7 +11,7 @@
     </head>
     
     <body style="font-family: Arial, Helvetica, sans-serif;" >
-        <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
+        <div >
             <?php
                 include("courosal.php");
             ?>
