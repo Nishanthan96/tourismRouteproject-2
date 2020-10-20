@@ -10,7 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     
-    <body style="font-family: Arial, Helvetica, sans-serif;">
+    <body style="font-family: Arial, Helvetica, sans-serif;" >
         <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
             <?php
                 include("courosal.php");
@@ -22,20 +22,22 @@
             ?>
         </div>
 
-        <div class="col-md-12  d-flex justify-content-around" >
+        <div class="col-md-12  d-flex justify-content-around"  >
         <div class="col-md-6">
+        
             <?php
                 include("login.php");
             ?>
         </div>
             <div class="col-md-3" style="height: 100%;">
+            <br><br>
                 <?php
                     include("add.php");
                 ?>
             </div>
         </div>
 
-        <div id="footer" >
+        <div id="footer" ><br><br><br><br>
             <?php
                 include("footer.php");
             ?>

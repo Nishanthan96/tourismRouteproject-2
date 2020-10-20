@@ -46,12 +46,13 @@
           font-size: 3.5rem;
         }
       }
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-   <div class="card">
+   <div class="card" >
    <form class="form-signin"><br><br><br><br>
   <h1 class="h3 mb-3 font-weight-normal">Sign In</h1>
   <label for="inputEmail" class="sr-only">Email address</label> 
